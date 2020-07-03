@@ -1,0 +1,23 @@
+
+p
+@app/src/main/java/com/joedayz/persistenciadatos/LoginActivity.kt,7\d\7debab72c7cb1253fdc5b710020d08e8fe14658c
+o
+?app/src/main/java/com/joedayz/persistenciadatos/MainActivity.kt,a\b\ababc987451925c4545e05aee0b745c3e463db2b
+q
+Aapp/src/main/java/com/joedayz/persistenciadatos/ConteoActivity.kt,a\a\aa8c3a76d34283e9b0361986a18bcb3f3d334040
+s
+Capp/src/main/java/com/joedayz/persistenciadatos/DetallesActivity.kt,d\5\d53b0446eba2f4931247d604bb69c2520c0631ad
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+x
+Happ/src/main/java/com/joedayz/persistenciadatos/adapter/model/Persona.kt,9\3\938cca0eac1acdca4ec7ae88cad4a5b7d1a787cf
+@
+app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
+…
+Uapp/src/main/java/com/joedayz/persistenciadatos/adapter/interfacce/PersonaListener.kt,8\e\8ed9bcd6b6f1bb24153d058edc4ae8be1b8d738a
+y
+Iapp/src/main/java/com/joedayz/persistenciadatos/adapter/PersonaAdapter.kt,f\e\fe9a78c59c36a57d685d31c2affaafd57ed2f62c
+
+Oapp/src/main/java/com/joedayz/persistenciadatos/adapter/holder/PersonaHolder.kt,9\0\901009f5e2e1c7181213e1e6e273ca49a5d09185
+s
+Capp/src/main/java/com/joedayz/persistenciadatos/PersonaActividad.kt,a\1\a1a2536c2f79a4d35cdafe47625f17ac07d003cd

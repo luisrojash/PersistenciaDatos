@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonRestar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="70dp"
+        android:text="-"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewConteo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonRestar"
+        app:layout_constraintEnd_toStartOf="@+id/buttonSumar"
+        app:layout_constraintStart_toEndOf="@+id/buttonRestar"
+        app:layout_constraintTop_toTopOf="@+id/buttonRestar"
+        tools:text="0" />
+
+    <Button
+        android:id="@+id/buttonSumar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="64dp"
+        android:text="+"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/buttonRestar" />
+
+    <Button
+        android:id="@+id/buttonResetear"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Resetear"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSumar"
+        app:layout_constraintStart_toStartOf="@+id/buttonRestar"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRestar" />
+
+    <Button
+        android:id="@+id/buttonDetalles"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Mostrar Detalles "
+        app:layout_constraintEnd_toEndOf="@+id/buttonResetear"
+        app:layout_constraintStart_toStartOf="@+id/buttonResetear"
+        app:layout_constraintTop_toBottomOf="@+id/buttonResetear" />
+</androidx.constraintlayout.widget.ConstraintLayout>
